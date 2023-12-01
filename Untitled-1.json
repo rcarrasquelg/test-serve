@@ -1,0 +1,21 @@
+{
+  "Id": "Policy1568825829774",
+
+  "Version": "2012–10–17",
+  "Statement": [
+    {
+      "Sid": "Stmt1568825827600",
+      "Action": ["s3:GetObject"],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::storybook-internal.bimsync.com/*",
+
+      "Condition": {
+        "IpAddress": {
+          "aws:SourceIp": "190.153.93.253"
+        }
+      },
+
+      "Principal": "*"
+    }
+  ]
+}
