@@ -12,13 +12,13 @@
     "deploy-storybook": "storybook-to-aws-s3 --bucket-path=storybook-test.com/ --aws-profile=NONE"
   },
   "dependencies": {
-    "@esbuild/darwin-arm64": "^0.19.8",
     "@storybook/storybook-deployer": "^2.8.16",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@esbuild/darwin-arm64": "^0.19.8",
     "@storybook/addon-essentials": "^7.6.0",
     "@storybook/addon-interactions": "^7.6.0",
     "@storybook/addon-links": "^7.6.0",
