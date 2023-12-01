@@ -4,7 +4,7 @@ export default function About() {
   return (
     <main>
       <h1>About page</h1>
-      <Link href="/about">
+      <Link href="/end">
         <h1>Next step</h1>
       </Link>
     </main>

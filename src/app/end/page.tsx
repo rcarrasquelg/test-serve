@@ -4,8 +4,8 @@ export default function End() {
   return (
     <main>
       <h1>End Page</h1>
-      <Link href="/about">
-        <h1>Next step</h1>
+      <Link href="/">
+        <h1>go home</h1>
       </Link>
     </main>
   );
